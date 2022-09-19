@@ -1,0 +1,45 @@
+let x, y, r, g, b;
+
+function setup() {
+  createCanvas(600, 600);
+  background(0);
+  
+}
+
+
+function draw() {
+  r = random(0, 255);
+  g = random(60, 43);
+  b = random(0, 255, 432);
+  x = (0, 600);
+  y = (0, 600);
+  stroke(12, 212, 32, 10);
+  fill(r, g, b, 80, 5);
+  circle(x, y, 24);
+  
+
+stroke(500,500, 6);
+smooth();
+ellipse(270, 300, 36, 36);
+noSmooth();
+ellipse(330, 300, 36, 36);
+  
+  stroke(432,43,231);
+smooth();
+ellipse(200, 200, 36, 36);
+noSmooth();
+ellipse(400, 200, 36, 36);
+  
+    stroke(32, 321, 434);
+smooth();
+ellipse(200, 400, 36, 36);
+noSmooth();
+ellipse(400, 400, 36, 36);
+  
+  stroke(0,255,0);
+smooth();
+ellipse(150, 300, 36, 36);
+noSmooth();
+ellipse(450, 300, 36, 36);
+}
+
