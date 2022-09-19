@@ -1,0 +1,84 @@
+let squareSize;
+let lineWidth;
+
+function setup() {
+  createCanvas(400, 400);
+  
+  background(104, 174, 201);
+
+}
+function draw() {
+  
+
+  lineWidth = random(0, 10)
+  squareSize = random(0, 7);
+  
+  rectMode(CENTER);
+  strokeWeight(lineWidth);
+  stroke(0, 10)
+  fill(0, 0,0, 1);
+  square(200, 200, squareSize);
+  
+  lineWidth = random(10, 10)
+  squareSize = random(0, 9);
+  rectMode(CENTER);
+  strokeWeight(lineWidth);
+  stroke(233, 203, 142, 9)
+  fill(0,0,0, 1);
+  square(200, 200, squareSize);
+  
+  rectMode(CENTER)
+  noStroke();
+  fill(233, 203, 142);
+  rect(129, 265, 5, 5)
+  
+    noStroke();
+  fill(233, 203, 142);
+  rect(179, 289, 5, 5)
+  
+  noStroke();
+  fill(233, 203, 142);
+  rect(290, 15, 10,10)
+
+  noStroke();
+  fill(233, 203, 142);
+  rect(320, 125, 9,9)
+  
+   noStroke();
+  fill(233, 203, 142);
+  rect(390, 109, 12,12)
+  
+     noStroke();
+  fill(233, 203, 142);
+  rect(223, 274, 5,5)
+  
+   noStroke();
+  fill(233, 203, 142);
+  rect(253, 245, 5,5)
+  
+  noStroke();
+  fill(233, 203, 142);
+  rect(175, 115, 8,8)
+  
+   noStroke();
+  fill(233, 203, 142);
+  rect(240, 78, 9,9)
+
+   noStroke();
+  fill(233, 203, 142);
+  rect(260, 150, 6,6)
+  
+   noStroke();
+  fill(233, 203, 142);
+  rect(120, 155, 6,6)
+  
+   noStroke();
+  fill(233, 203, 142);
+  rect(100, 210, 7,7)
+  
+   noStroke();
+  fill(233, 203, 142);
+  rect(210, 180, 4,4)
+  
+  
+}
