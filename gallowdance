@@ -1,0 +1,35 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  
+  background(255,165,0, 10);
+
+  stroke(255, 255, 0);
+  line(0, 70, 400, 70);
+  
+  fill(100,165,0);
+  ellipse(200, 200, 30, 30);
+  
+  rectMode(CENTER);
+  fill(220, 100, 250, 200);
+  stroke(0, 225, 0);
+  strokeWeight
+  rect(200, 200, 75, 75);
+  
+  fill(123, 5, 5)
+  stroke(0, 0, 399);
+  ellipse(50, 70, 30, 30);
+  
+  ellipseMode(RADIUS);
+  fill(123, 5, 5);
+  noStroke();
+  ellipse(300, 300, 75, 75);
+  ellipseMode(CENTER);
+  fill(0, 400, 0);
+  ellipse(300, 300, 75, 75);
+  ellipseMode(CENTER);
+  fill(400, 400, 0);
+  ellipse(300, 300, 32, 32);
+}
