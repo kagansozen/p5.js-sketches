@@ -1,0 +1,14 @@
+function setup() {
+  createCanvas(400, 400);
+  background(0);
+}
+
+function draw() {
+  lineWidth = random(1, 10);
+  squareSize = random(3, 200);
+  rectMode(CENTER);
+  strokeWeight(lineWidth);
+  stroke(165, 102, 58, 10)
+  fill(165, 10, 130, 1)
+  circle(200, 200, squareSize)
+}
